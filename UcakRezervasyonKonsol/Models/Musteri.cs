@@ -9,11 +9,11 @@ namespace UcakRezervasyonKonsol.Models
 {
     public class Musteri : IMusteri
     {
-        public string Ad { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Soyad { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Cinsiyet { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int Yas { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool YasliMi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool EngelliMi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
+        public string Cinsiyet { get; set; }
+        public int Yas { get; set; }
+        public bool YasliMi { get; set; }
+        public bool EngelliMi { get; set; }
     }
 }

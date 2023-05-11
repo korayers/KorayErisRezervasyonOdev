@@ -9,8 +9,12 @@ namespace UcakRezervasyonKonsol.Models
 {
     public class Ucus : IUcus
     {
-        public string Nereden { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Nereye { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public double UcusSuresi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int UcusNo { get; set; }
+        public int Nereden { get; set; }
+        public int Nereye { get; set; }
+        public double UcusSuresi { get; set; }
+        public int RezerveYolcuSayisi { get; set; }
+        public string UcakSeriNo { get; set; }
+        public DateTime UcusTarihi { get; set; }
     }
 }

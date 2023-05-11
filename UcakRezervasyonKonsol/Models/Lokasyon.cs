@@ -9,9 +9,11 @@ namespace UcakRezervasyonKonsol.Models
 {
     public class Lokasyon : ILokasyon
     {
-        public string Ulke { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Sehir { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Havaalani { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool KapaliMi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int LokasyonNo { get; set; }
+        public string Ulke { get; set; }
+        public string Sehir { get; set; }
+        public string Havaalani { get; set; }
+        public bool KapaliMi { get; set; }
+
     }
 }

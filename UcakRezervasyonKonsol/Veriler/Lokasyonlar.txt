@@ -1,0 +1,10 @@
+﻿1, Türkiye, İstanbul, İstanbul Havalimanı, False
+2, ABD, New York, John F. Kennedy Uluslararası Havalimanı, true	
+3, İspanya, Barselona, Barselona-El Prat Havalimanı, true			
+4, Fransa, Paris, Charles de Gaulle Havalimanı, true
+5, Japonya, Tokyo, Narita Uluslararası Havalimanı, True	
+6, İngiltere, Londra, Heathrow Havalimanı, true
+7, Almanya, Berlin, Berlin Brandenburg Havalimanı, False
+8, Çin, Şangay, Pudong Uluslararası Havalimanı, False
+9, Avustralya, Sidney, Sidney Kraliçe II Uluslararası Havalimanı, true
+10, Brezilya, Rio de Janeiro, Rio de Janeiro-Galeão Uluslararası Havalimanı, true

@@ -9,9 +9,9 @@ namespace UcakRezervasyonKonsol.Models
 {
     public class Ucak : IUcak
     {
-        public string Model { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string SeriNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime BakimTarihi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int KoltukKapasitesi { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Model { get; set; }
+        public string SeriNo { get; set; }
+        public DateTime BakimTarihi { get; set; }
+        public int KoltukKapasitesi { get; set; }
     }
 }

@@ -1,0 +1,1 @@
+ayşe,fatma,kız,79,True,False

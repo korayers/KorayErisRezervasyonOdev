@@ -8,8 +8,13 @@ namespace UcakRezervasyonKonsol.Interfaces
 {
     public interface IUcus
     {
-        public string Nereden { get; set; }
-        public string Nereye { get; set; }
+        public int UcusNo { get; set; }
+        public int Nereden { get; set; }
+        public int Nereye { get; set; }
         public double UcusSuresi { get; set; }
+        public int RezerveYolcuSayisi { get; set; }
+        public string UcakSeriNo { get; set; }
+        public DateTime UcusTarihi  { get; set; }
+
     }
 }

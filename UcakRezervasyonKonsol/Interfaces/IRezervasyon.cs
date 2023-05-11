@@ -9,11 +9,8 @@ namespace UcakRezervasyonKonsol.Interfaces
 {
     public interface IRezervasyon
     {
-        public Ucak Ucak { get; set; }
-        public Lokasyon Lokasyon { get; set; }
         public Musteri Musteri { get; set;}
-        public int TarihSaat { get; set; }
-        public bool AcikMi { get; set; }
+        public Ucus Ucus { get; set; }
         public int KoltukNo { get; set; }
     }
 }
